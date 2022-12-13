@@ -1,13 +1,14 @@
 {
   "name": "final-template",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" ",
     "cz:init": "commitizen init cz-conventional-changelog --save-dev --save-exact    ",
     "lint": "eslint .",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "standard-version"
   },
   "keywords": [],
   "author": "hquaye",
