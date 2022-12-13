@@ -1,0 +1,1 @@
+for notes on sv:    https://levelup.gitconnected.com/improve-your-commits-and-versioning-in-javascript-56f72c0ab761

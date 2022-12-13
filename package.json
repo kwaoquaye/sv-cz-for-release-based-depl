@@ -8,7 +8,9 @@
     "cz:init": "commitizen init cz-conventional-changelog --save-dev --save-exact    ",
     "lint": "eslint .",
     "commit": "git-cz",
-    "release": "standard-version"
+    "release:initial": "release -- --first-release",
+    "release": "standard-version",
+    "release:major": "release -- --release-as major"
   },
   "keywords": [],
   "author": "hquaye",

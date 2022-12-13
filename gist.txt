@@ -1,0 +1,16 @@
+npm i -D commitizen
+
+commitizen init cz-conventional-changelog --save-dev --save-exact
+
+touch commitlintrc.json
+    -{
+  "extends": ["@commitlint/config-conventional"]
+    }
+
+npm i -D @commitlint/{cli,config-conventional}
+
+npm i -D husky
+
+npx husky install
+
+npx husky add .husky/commit-msg 'npx commitlint --edit $1'
