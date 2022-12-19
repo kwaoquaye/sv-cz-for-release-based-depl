@@ -1,3 +1,4 @@
+//another synchronous action
 console.log("Hellooo!!")
 
 //asynchronous action
