@@ -1,16 +1,35 @@
+npm install eslint --save-dev
+
+npx eslint --init
+
+//ensure .eslintrc.json's env property has jest set to true
+npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
+
+//in .eslintrc.json => "extends":"plugin:prettier/recommended"
+
+in .vscode touch settings.json and paste => 
+    {
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "files.autoSave": "onFocusChange"
+}
+
 npm i -D commitizen
 
 commitizen init cz-conventional-changelog --save-dev --save-exact
 
-touch commitlintrc.json
+touch .commitlintrc.json
     -{
   "extends": ["@commitlint/config-conventional"]
     }
 
 npm i -D @commitlint/{cli,config-conventional}
 
-npm i -D husky
-
-npx husky install
+npx husky-init && npm install --save-dev
 
 npx husky add .husky/commit-msg 'npx commitlint --edit $1'
+
+in .env file, include:
+  REACT_APP_VERSION=$npm_package_version
+  REACT_APP_NAME=$npm_package_name
