@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.3.2](https://github.com/kwaoquaye/sv-cz-for-release-based-depl/compare/v2.3.1...v2.3.2) (2022-12-19)
+
+
+### Others
+
+* another comment ([e44315b](https://github.com/kwaoquaye/sv-cz-for-release-based-depl/commit/e44315b69584fa07681ceee3ef0f17e460b6d87b))
+
 ### [2.3.1](https://github.com/kwaoquaye/sv-cz-for-release-based-depl/compare/v2.3.0...v2.3.1) (2022-12-19)
 
 
