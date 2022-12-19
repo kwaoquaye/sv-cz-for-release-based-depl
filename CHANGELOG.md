@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.3.1](https://github.com/kwaoquaye/sv-cz-for-release-based-depl/compare/v2.3.0...v2.3.1) (2022-12-19)
+
+
+### Others
+
+* added comment for asynchronous task ([b969b77](https://github.com/kwaoquaye/sv-cz-for-release-based-depl/commit/b969b77e8d98d97037ed18edf59d5cbc7ce2d8da))
+* added comment to synchronous task ([c7442fe](https://github.com/kwaoquaye/sv-cz-for-release-based-depl/commit/c7442fe55a35c889b2d88c43426f86d1e630ee23))
+
 ## [2.3.0](https://github.com/kwaoquaye/sv-cz-for-release-based-depl/compare/v2.2.1...v2.3.0) (2022-12-19)
 
 
