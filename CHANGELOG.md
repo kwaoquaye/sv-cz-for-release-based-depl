@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/kwaoquaye/sv-cz-for-release-based-depl/compare/v2.2.1...v2.3.0) (2022-12-19)
+
+
+### Features
+
+* explored the sync and async tasks ([c991f7a](https://github.com/kwaoquaye/sv-cz-for-release-based-depl/commit/c991f7aa3151748dcb035d40b014d10a96eeee1b))
+* if applied, it will log hellooo to the console when ran ([0da1561](https://github.com/kwaoquaye/sv-cz-for-release-based-depl/commit/0da1561095ed0c82998f4420e00642ed7a77c296))
+
+
+### Others
+
+* gfdgd ([202e449](https://github.com/kwaoquaye/sv-cz-for-release-based-depl/commit/202e4490d36ab6a6981aff45910e0caaafee9075))
+
 ### [2.2.1](///compare/v2.2.0...v2.2.1) (2022-12-13)
 
 
