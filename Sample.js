@@ -1,5 +1,6 @@
 console.log("Hellooo!!")
 
+//asynchronous action
 setTimeout(() => {
     console.log("I waited for 2000s b4 loggin to the console");
 }, 2000);
